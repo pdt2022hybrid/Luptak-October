@@ -1,0 +1,14 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+    meno:
+        label: Meno
+    bydlisko:
+        label: bydlikso
+    vek:
+        label: vek

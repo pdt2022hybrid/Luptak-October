@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Note
+
+# Model Form Field configuration
+form: $/luptak/test/models/note/fields.yaml
+
+# Model Class name
+modelClass: Luptak\Test\Models\Note
+
+# Default redirect location
+defaultRedirect: luptak/test/notes
+
+# Create page
+create:
+    title: Create Note
+    redirect: luptak/test/notes/update/:id
+    redirectClose: luptak/test/notes
+
+# Update page
+update:
+    title: Edit Note
+    redirect: luptak/test/notes
+    redirectClose: luptak/test/notes
+
+# Preview page
+preview:
+    title: Preview Note
